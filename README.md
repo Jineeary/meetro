@@ -48,7 +48,7 @@ limitations under the License.
 </h3>
 
 <h3 align="center">
-    <a href="http://127.0.0.1:5500"><img src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/course_banner.png"></a>
+    <a href="http://127.0.0.1:5500"><img src="https://github.com/Jineeary/meetro/blob/main/image/img_subway.png"></a>
 </h3>
 
 🤗 Transformers provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio.

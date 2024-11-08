@@ -247,7 +247,7 @@ This is necessary to create a **Pull Request**.
 
 ☐ Did you prefix '[ING]' before the title of the task in progress? (Prevent duplicate jobs)
 
-☐ See **Do you want a new feature?**, **## Do you want to implement a new model?** to add a new feature
+☐ See **Do you want a new feature?**, **Do you want to implement a new model?** to add a new feature
 
 ☐ Is there an informative text in the method you want to reveal?
 

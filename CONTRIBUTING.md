@@ -34,7 +34,7 @@ There are many ways you can contribute to Transformers.
 
 Not sure where to start? See the [first question](https://github.com/huggingface/transformers/tree/main/templates) list!
 
-If you've solved the first problem, or you want a more challenging one, please refer to the [second problem] (https://github.com/huggingface/transformers/tree/main/templates) list!
+If you've solved the first problem, or you want a more challenging one, please refer to the [second problem](https://github.com/huggingface/transformers/tree/main/templates) list!
 
 Any contribution is welcome. Every contribution is worth a lot to us! 😍
 
@@ -57,7 +57,7 @@ I'd appreciate it if you could **check if it's a bug already reported**!
 
 The problem should be related to the bug in the library itself, not the code. 
 
-If you're not sure if the bug is in the code or in the library, please ask us first at [mail] (duswlsgodqhr@naver.com )! This way we can respond faster.😎
+If you're not sure if the bug is in the code or in the library, please ask us first at [mail](duswlsgodqhr@naver.com )! This way we can respond faster.😎
 
 >[!tip]
 >We have a number of other [emails](email2). If you don't get an answer, please refer to it!
@@ -88,7 +88,7 @@ Whatever the idea is, we want to listen to it! Please explain!😄
 3. Please show me how to use it through the code.
 4. Please include the link if the feature is related to the paper.
 
-I'll help you solve your problem! Please let me know through the[템플릿](https://github.com/huggingface/transformers/tree/main/templates).
+I'll help you solve your problem! Please let me know through the [templete](https://github.com/huggingface/transformers/tree/main/templates).
 
 ## Do you want to implement a new model?
 
@@ -100,7 +100,7 @@ New models are constantly coming out. Do you want to give us information on new 
 
 Please let me know if you would like to contribute directly to the model. I'll help you add it to **transformer**!
 
-[Technical Guide](https://github.com/huggingface/transformers/tree/main/templates)will tell you how to add a model!
+[Technical Guide](https://github.com/huggingface/transformers/tree/main/templates) will tell you how to add a model!
 
 ## Do you want to add documentation?
 
@@ -108,14 +108,14 @@ We are always trying to provide more accurate and clearer documents 😖💦
 
 Are there any typos, omissions, or unclear additions? Send us a [mail](메일주소)
 
-Creating, building, and writing documents also helps us. See [Document] (https://github.com/huggingface/transformers/tree/main/docs) for more information.
+Creating, building, and writing documents also helps us. See [Document](https://github.com/huggingface/transformers/tree/main/docs) for more information.
 
 ## Create a Pull Request
 
 This is necessary to create a **Pull Request**.
 
-1. **[파이썬3.9](https://github.com/huggingface/transformers/blob/main/setup.py#L449)**또는 그 이상의 버전
-2. If there is no **vscode** you must[install](https://code.visualstudio.com/) it to access it.
+1. **[Python 3.9](https://github.com/huggingface/transformers/blob/main/setup.py#L449)** or later versions
+2. If there is no **vscode** you must [install](https://code.visualstudio.com/) it to access it.
 
 * method
   
@@ -153,7 +153,7 @@ This is necessary to create a **Pull Request**.
        ```bash
        pytest tests/<TEST_TO_RUN>.py
        ```
-    [테스트]((https://huggingface.co/docs/transformers/testing)하고 싶다면 클릭하세요!
+    If you want to [test](https://huggingface.co/docs/transformers/testing), click here!
     
     🤗 Transformers relies on `black` and `ruff` to format its source code
        consistently. After you make changes, apply automatic style corrections and code verifications

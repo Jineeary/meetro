@@ -263,7 +263,7 @@ Always watch out for the **main folder**!⚠️
 
 ### Style guide
 
-For document strings, refer to the [Document Creation Guide](https://github.com/huggingface/transformers/tree/main/docs#writing-documentation---specitication)을 참고해주세요. ✍️
+For document strings, refer to the [Document Creation Guide](https://github.com/huggingface/transformers/tree/main/docs#writing-documentation---specitication). ✍️
 
 ### Sync a forked repository with upstream main (the Hugging Face repository)
 

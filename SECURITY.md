@@ -13,7 +13,7 @@ To report a vulnerability, please send an email to [11yyyy1733@naver.com](mailto
 4. **Any suggestions for fixing the issue**
 
 Our team will respond to security reports within 24 hours. Once the vulnerability is confirmed, we will take steps to address it, keeping the reporter informed throughout the process.
-if emailing is difficuly, you can also try [our own chatbot](https://open.kakao.com/o/slczM5Yg).
+if emailing is difficuly, you can also try [our own chatbot](https://open.kakao.com/o/sIczM5Yg).
 
 ## Disclosure Policy
 

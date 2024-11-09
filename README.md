@@ -15,7 +15,7 @@ limitations under the License.
 -->
 
 <h1 align="center">
-    <p>Meetro: Effortless Meetup Planning at Metro Stations</p>
+    <p>Meetro🚇: Effortless Meetup Planning at Metro Stations</p>
 </h1>
 
 <p align="center">

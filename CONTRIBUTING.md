@@ -257,7 +257,7 @@ This is necessary to create a **Pull Request**.
 
 ### Tests
 
-If you want to check the code's operation and output value, please use the [test folder](https://github.com/Jineeary/meetro/blob/main/.github/ISSUE_TEMPLATE/custom.yml).
+If you want to check the code's operation and output value, please use the [test templete](https://github.com/Jineeary/meetro/blob/main/.github/ISSUE_TEMPLATE/test_templete.yml).
 
 Always watch out for the **main folder**!⚠️
 

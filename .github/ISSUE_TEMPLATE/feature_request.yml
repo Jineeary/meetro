@@ -1,0 +1,35 @@
+name: "Feature Request"
+description: "Suggest an idea for this project"
+labels: ["Feature request"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        * Is this your first time doing a feature request? Please refer to the [feature request guidelines](https://github.com/Jineeary/meetro/blob/main/CONTRIBUTING.md#do-you-want-a-new-feature)!
+
+  - type: textarea
+    id: "idea"
+    attributes:
+      label: "Your Idea"
+      description: "Briefly describe your idea."
+
+  - type: textarea
+    id: "function-detail"
+    attributes:
+      label: "Function Details"
+      description: "Explain the function in as much detail as possible."
+
+  - type: textarea
+    id: "code-usage"
+    attributes:
+      label: "Code Usage"
+      description: "Describe how to use this feature in the code."
+
+  - type: input
+    id: "more-details-link"
+    attributes:
+      label: "More Details Link"
+      description: "Provide a link with more details if available."
+      placeholder: "https://example.com"

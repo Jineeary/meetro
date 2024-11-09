@@ -1,20 +1,37 @@
-## Pull Request Summary
+# Pull Request Template
 
-- [ ] 이 풀 리퀘스트는 어떤 문제를 해결하나요?
-- [ ] 변경 사항이 어떤 영향을 미치나요?
+## What does this PR do?
+<!-- Description: Briefly explain what this PR does. -->
+Fixes #(issue number)
 
-## 변경 사항
+## Description of the Changes
+<!-- Describe the changes in this PR. -->
+- Major change 1
+- Major change 2
+- ...
 
-- [ ] 주요 변경 사항 1
-- [ ] 주요 변경 사항 2
+## Before Submitting
+- [ ] This PR fixes a typo or improves the docs (you can dismiss the other checks if that's the case).
+- [ ] Did you read the contributor guidelines, specifically the Pull Request section?
+- [ ] Was this discussed/approved via a GitHub issue or on the forum? If so, please add the link here.
+- [ ] If documentation is necessary, did you update it? Refer to the [documentation guidelines](#) and [docstring formatting tips](#).
+- [ ] Did you write any new necessary tests?
 
-## 검토 요청 사항
+## Test Plan
+<!-- Test Plan: Describe how you tested these changes. -->
+1. Test case 1
+2. Test case 2
+3. ...
 
-- [ ] 이 변경 사항이 예상대로 작동하는지 검토해주세요.
-- [ ] 추가적으로 확인이 필요한 내용이 있나요?
+## Related Issues
+<!-- Link any related issues that this PR addresses. -->
+- Related issue #1
+- Related issue #2
 
-## 관련 이슈
-- 이슈 번호: #
+## Who can review?
+<!-- Tag team members or community members who can review this PR. -->
+@mention Anyone in the community is free to review the PR once the tests have passed.
 
-## 참고 사항
-- 추가적으로 참고할 사항이 있으면 여기에 작성하세요.
+## Additional Notes
+<!-- Add any additional notes or context here. -->
+- Specific requirements for the project can be added here.

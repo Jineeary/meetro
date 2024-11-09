@@ -57,6 +57,7 @@ If you ask, we can answer you quickly and with a good answer.
 I'd appreciate it if you could **check if it's a [bug already reported](https://github.com/Jineeary/meetro/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml)**!
 
 ⚠️And please check our [license](https://github.com/Jineeary/meetro/blob/main/LICENSE)!
+
 The problem should be related to the bug in the library itself, not the code. 
 
 If you're not sure if the bug is in the code or in the library, please ask us first at [mail](duswlsgodqhr@naver.com)! This way we can respond faster.😎

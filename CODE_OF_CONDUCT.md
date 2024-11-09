@@ -52,7 +52,6 @@ comments, commits, code, wiki edits, issues, and other contributions that are
 not aligned to this Code of Conduct, and will communicate reasons for moderation
 decisions when appropriate.
 
-If you believe someone is violating the code of conduct, we ask that you report it by emailing scarlet0411@naver.com. 
 
 ## Scope
 

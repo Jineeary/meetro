@@ -14,7 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# Meetro: Effortless Meetup Planning at Metro Stations
+<h1 align="center">
+    <p>Meetro: Effortless Meetup Planning at Metro Stations</p>
+</h1>
 
 <p align="center">
     <a href="https://circleci.com/gh/huggingface/transformers"><img alt="Build" src="https://img.shields.io/circleci/build/github/huggingface/transformers/main"></a>

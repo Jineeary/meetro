@@ -1,47 +1,44 @@
-<h2 align="center">
+<h1 align="center">
+    <p>Meetro🚇: Lên kế hoạch gặp gỡ dễ dàng tại các ga tàu điện ngầm</p>
+</h1>
+
+<p align="center">
+    <a href="https://circleci.com/gh/huggingface/transformers"><img alt="Build" src="https://img.shields.io/circleci/build/github/huggingface/transformers/main"></a>
+    <a href="https://github.com/huggingface/transformers/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/huggingface/transformers.svg?color=blue"></a>
+    <a href="https://huggingface.co/docs/transformers/index"><img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers/index.svg?down_color=red&down_message=offline&up_message=online"></a>
+    <a href="https://github.com/huggingface/transformers/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/huggingface/transformers.svg"></a>
+    <a href="https://github.com/huggingface/transformers/blob/main/CODE_OF_CONDUCT.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg"></a>
+    <a href="https://zenodo.org/badge/latestdoi/155220641"><img src="https://zenodo.org/badge/155220641.svg" alt="DOI"></a>
+</p>
+
+<h4 align="center">
+    <p>
+        <b>English</b> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hans.md">简体中文</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hant.md">繁體中文</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ko.md">한국어</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_es.md">Español</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ja.md">日本語</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_hd.md">हिन्दी</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ru.md">Русский</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_pt-br.md">Рortuguês</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_te.md">తెలుగు</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_fr.md">Français</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_de.md">Deutsch</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_vi.md">Tiếng Việt</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ar.md">العربية</a> |
+        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ur.md">اردو</a> |
+    </p>
+</h4>
+
+<h3 align="center">
     <p>Giải pháp tối ưu để tìm điểm giữa!</p>
-</h2>
+</h3>
 
-## Tổng quan
-Meetro là một dịch vụ web sáng tạo được thiết kế để đơn giản hóa quá trình tìm kiếm địa điểm gặp gỡ trung tâm, đặc biệt cho các nhóm bạn hoặc gia đình trong khu vực đô thị. Giải pháp của chúng tôi không chỉ tính toán điểm giữa tối ưu mà còn giới thiệu các địa điểm thú vị gần đó, giúp buổi gặp gỡ trở nên vui vẻ hơn.
+## Tổng Quan
+Meetro là một dịch vụ web sáng tạo được thiết kế để đơn giản hóa quá trình tìm kiếm một địa điểm gặp gỡ trung tâm, đặc biệt là cho bạn bè hoặc nhóm phân tán khắp một khu vực đô thị. Giải pháp của chúng tôi không chỉ tính toán ga tàu điện ngầm điểm giữa tối ưu mà còn đề xuất các địa điểm gần đó, xem xét sự phổ biến của các địa điểm để tạo ra trải nghiệm gặp gỡ thú vị hơn.
 
-## Xác định và phân tích vấn đề
-Khi bạn bè sống ở các nơi khác nhau, việc chọn địa điểm gặp gỡ trung tâm có thể khó khăn. Các nền tảng hiện tại như [WeMeetPlace](https://wemeetplace.com) và [Ya-manna](https://ya-manna.com) có nỗ lực tìm kiếm điểm giữa nhưng thường thiếu các địa điểm hấp dẫn và cập nhật. Meetro giải quyết vấn đề này bằng cách cung cấp các điểm hẹn thú vị và hợp thời.
+## Xác Định và Phân Tích Vấn Đề
+Với bạn bè sống ở nhiều địa điểm khác nhau, việc chọn một điểm gặp gỡ trung tâm có thể là một thách thức. Các nền tảng hiện tại như [WeMeetPlace](https://wemeetplace.com) và [Ya-manna](https://ya-manna.com) cố gắng tìm điểm giữa nhưng thường thiếu các địa điểm hấp dẫn hoặc sử dụng dữ liệu cũ. Giải pháp của chúng tôi, Meetro, kết hợp việc tính toán điểm giữa với dữ liệu các địa điểm hiện tại để cung cấp những địa điểm gặp gỡ thực tế và hấp dẫn hơn.
 
-### Cơ hội nghiên cứu và cải tiến
-1. **WeMeetPlace** ([Website](https://wemeetplace.com) | [GitHub](https://github.com/we-meetting/weMeet-frontend)):  
-   WeMeetPlace tập trung vào tìm điểm giữa nhưng không cung cấp nhiều địa điểm thú vị. Mục tiêu của chúng tôi là đảm bảo Meetro có một trải nghiệm phong phú với các địa điểm hấp dẫn.
-
-2. **Ya-manna** ([Website](https://ya-manna.com) | [GitHub](https://github.com/mandooro/YaManNa)):  
-   Ya-manna bao gồm các lựa chọn giải trí nhưng ưu tiên các điểm chính xác, có thể thiếu các địa điểm hấp dẫn. Meetro khắc phục điều này bằng cách ưu tiên các địa điểm nổi tiếng.
-
-## Tuyên bố sứ mệnh
-"Sứ mệnh của chúng tôi là giúp bạn bè tìm kiếm một điểm hẹn hoàn hảo, cung cấp không chỉ địa điểm trung tâm mà còn các điểm thú vị gần đó."
-
-## Các chức năng chính
-Meetro kết hợp tính toán điểm giữa và xếp hạng địa điểm, đảm bảo rằng người dùng được đề xuất các ga tàu điện ngầm trung tâm với các địa điểm phổ biến.
-
-### Tính năng nổi bật
-- **Tính toán điểm giữa linh hoạt**: Meetro tính toán điểm giữa với phạm vi linh hoạt, cho phép người dùng ưu tiên các ga gần các địa điểm thú vị.
-- **Xếp hạng địa điểm**: Meetro ưu tiên các địa điểm phổ biến, với hệ thống điểm cho các địa điểm hấp dẫn.
-
-### Khác biệt
-| Tính năng                           | WeMeetPlace / Ya-manna               | Meetro                                     |
-|------------------------------------|--------------------------------------|--------------------------------------------|
-| **Tính toán điểm giữa**             | Cố định                               | Linh hoạt với các địa điểm hấp dẫn          |
-| **Thông tin địa điểm**              | Cũ hoặc ít                            | Mới và nhiều điểm thú vị                   |
-
-## Công cụ phát triển và ngôn ngữ
-Meetro sử dụng các ngôn ngữ và công cụ sau:
-- **JavaScript (Node.js)**: Backend.
-- **Python**: Xử lý dữ liệu và tích hợp bản đồ.
-- **HTML/CSS, React**: Frontend.
-- **GitHub, Figma, Google Maps API, OpenStreetMap**.
-
-## Hướng dẫn sử dụng
-1. **Nhập địa điểm**: Nhập vị trí của từng người.
-2. **Tìm điểm giữa**: Ứng dụng tính toán và giới thiệu các ga gần điểm giữa.
-3. **Xem gợi ý**: Các ga với điểm cao nhất được đề xuất.
-
-## Cấp phép
-Dự án này được cấp phép Apache License 2.0.
+...

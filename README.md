@@ -48,7 +48,10 @@ limitations under the License.
 </h4>
 
 <h3 align="center">
-    <a href="http://127.0.0.1:5500"><img src="https://github.com/Jineeary/meetro/blob/main/image/img_subway.png"></a>
+    <p>Click the image below to visit the webpage.</p>
+    <a href="http://127.0.0.1:5500">
+        <img src="https://github.com/Jineeary/meetro/blob/main/image/img_subway.png" alt="Click the image to visit the webpage">
+    </a>
 </h3>
 
 <h2 align="center">

@@ -120,27 +120,10 @@ To ensure smooth project execution, each team member has a clearly defined role:
 - **Data Collector**: Yeon-jin Kim – Gathers and processes data, ensuring the accuracy of attraction information.
 - **Website Creator**: Yeo-jin Kim – Designs and develops the website interface to deliver a seamless user experience.
 
-## Installation
-To install and run Meetro locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/team9/meetro.git
-
-2. Navigate to the project directory:
-   ```bash
-   cd meetro
-
-3. Install the necessary dependencies:
-   ```bash
-   npm install
-
 ## Quick Start
-1. Run the application:
-   ```bash
-   npm start
+To start using Meetro, simply click the link below to visit the website:
 
-2. Open your browser and navigate to http://localhost:3000 to access the web interface.
+[Visit Meetro](http://localhost:3000)
 
 ## Usage
 1. **Input Locations**: Enter the locations of each person in your group.
@@ -152,7 +135,7 @@ Meetro makes planning a meeting spot as easy as possible by offering user-friend
 We welcome contributions to help improve Meetro. To contribute, please follow our CONTRIBUTING.md guidelines. Contributions can include code improvements, new features, or updates to attraction data.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](link-to-license) file for more details.
 
 ## Online Demos and Examples
 In addition to the main functionalities, we provide the following demos to showcase Meetro’s capabilities:

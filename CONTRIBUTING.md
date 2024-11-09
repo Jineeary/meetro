@@ -6,7 +6,8 @@
 
 Our mission is to help our friends easily find the most efficient subway stations and places to enjoy nearby. Whether it's a casual meeting or a special occasion, we simplify the process of choosing the perfect meeting place.
 
-* Goal: A web service that finds a mid-point subway station for friends and recommends nearby attractions. #Effective #Convenience #Recommendation #SubwayStations #Meeting
+* Goal: A web service that finds a mid-point subway station for friends and recommends nearby attractions.
+  #Effective #Convenience #Recommendation #SubwayStations #Meeting
 
 * Target customers: People who have difficulty deciding where to meet, friends who want to meet and hang out in the middle, and people who want to choose meeting places more efficiently.
 
@@ -55,6 +56,7 @@ If you ask, we can answer you quickly and with a good answer.
 ⚠️ Before reporting the issue, please check the following
 I'd appreciate it if you could **check if it's a [bug already reported](https://github.com/Jineeary/meetro/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml)**!
 
+⚠️And please check our [license](https://github.com/Jineeary/meetro/blob/main/LICENSE)!
 The problem should be related to the bug in the library itself, not the code. 
 
 If you're not sure if the bug is in the code or in the library, please ask us first at [mail](duswlsgodqhr@naver.com)! This way we can respond faster.😎

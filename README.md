@@ -49,11 +49,12 @@ limitations under the License.
 
 <h2 align="center">
     <p>The optimal solution to find the midpoint!</p>
-</h2>
 
 <h3 align="center">
     <a href="http://127.0.0.1:5500"><img src="https://github.com/Jineeary/meetro/blob/main/image/img_subway.png"></a>
 </h3>
+
+</h2>
 
 ## Overview
 Meetro is an innovative web service designed to simplify the process of finding a central meeting location, especially for friends or groups scattered across a metropolitan area. Our solution not only calculates the optimal midpoint subway station but also recommends nearby attractions, taking into account the popularity of sites to create a more enjoyable meetup experience.

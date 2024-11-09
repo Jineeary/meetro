@@ -73,12 +73,6 @@ If you have confirmed that the bug has not been reported yet, please include the
 
 * Please attach a screenshot or .txt file for any additional information that may help
 
-To import the OS and software versions automatically, run the following command.
-
-```bash
-코드 넣기(vscode에 git연동하는 코드 넣기?)
-```
-
 ### Do you want a new feature?
 
 Have you come up with an amazing idea? Open up the issue and add it to transformer!🤓💡

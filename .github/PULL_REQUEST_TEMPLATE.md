@@ -1,4 +1,4 @@
-# Pull Request Template
+# Pull Request Template 🙌
 
 ## What does this PR do?
 <!-- Description: Briefly explain what this PR does. -->

@@ -15,7 +15,7 @@ limitations under the License.
 -->
 
 <h1 align="center">
-    <p>Meetro🚇: Effortless Meetup Planning at Metro Stations</p>
+    <p>Meetro🚇: మెట్రో స్టేషన్లలో సులభమైన మీటప్ ప్లానింగ్</p>
 </h1>
 
 <p align="center">

@@ -135,7 +135,7 @@ Meetro makes planning a meeting spot as easy as possible by offering user-friend
 We welcome contributions to help improve Meetro. To contribute, please follow our CONTRIBUTING.md guidelines. Contributions can include code improvements, new features, or updates to attraction data.
 
 ## License
-This project is licensed under the Apache License 2.0. See the [LICENSE](link-to-license) file for more details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/Jineeary/meetro/blob/main/LICENSE) file for more details.
 
 ## Online Demos and Examples
 In addition to the main functionalities, we provide the following demos to showcase Meetro’s capabilities:

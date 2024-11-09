@@ -24,23 +24,25 @@
 
 <h4 align="center">
     <p>
-        <b>English</b> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hans.md">简体中文</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hant.md">繁體中文</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ko.md">한국어</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_es.md">Español</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ja.md">日本語</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_hd.md">हिन्दी</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ru.md">Русский</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_pt-br.md">Рortuguês</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_te.md">తెలుగు</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_fr.md">Français</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_de.md">Deutsch</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_vi.md">Tiếng Việt</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ar.md">العربية</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ur.md">اردو</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/README.md">English</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_chinese(simplified).md">简体中文</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_chinese(traditional).md">繁體中文</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_korean.md">한국어</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_spanish.md">Español</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_japanese.md">日本語</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_hindi.md">हिन्दी</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_russian.md">Русский</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_portuguese.md">Рortuguês</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_telugu.md">తెలుగు</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_french.md">Français</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_german.md">Deutsch</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_vietnamese.md">Tiếng Việt</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_urd.md">العربية</a> |
+        <a href="https://github.com/Jineeary/meetro/blob/main/language/README_arabic.md">اردو</a> |
     </p>
 </h4>
+
+https://github.com/Jineeary/meetro/blob/main/README.md
 
 <h3 align="center">
     <p>点击下方图片访问网页。</p>

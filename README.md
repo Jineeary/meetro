@@ -18,6 +18,10 @@ limitations under the License.
     <p>Meetro🚇: Effortless Meetup Planning at Metro Stations</p>
 </h1>
 
+<h2 align="center">
+    <p>The optimal solution to find the midpoint!</p>
+</h2>
+
 <p align="center">
     <a href="https://circleci.com/gh/huggingface/transformers"><img alt="Build" src="https://img.shields.io/circleci/build/github/huggingface/transformers/main"></a>
     <a href="https://github.com/huggingface/transformers/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/huggingface/transformers.svg?color=blue"></a>
@@ -46,10 +50,6 @@ limitations under the License.
         <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ur.md">اردو</a> |
     </p>
 </h4>
-
-<h3 align="center">
-    <p>The optimal solution to find the midpoint!</p>
-</h3>
 
 <h3 align="center">
     <a href="http://127.0.0.1:5500"><img src="https://github.com/Jineeary/meetro/blob/main/image/img_subway.png"></a>

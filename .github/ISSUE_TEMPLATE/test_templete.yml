@@ -1,0 +1,25 @@
+name: "Test Template Issue"
+description: "Space for code testing."
+labels: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Do you want to test your ideas? 💡
+
+        Welcome! This is a space to test your ideas and share them with us.
+
+        Any idea will go a long way for us! Get active!
+
+  - type: textarea
+    id: "idea-test"
+    attributes:
+      label: "Run an Idea Test"
+      description: "Describe the idea you'd like to test."
+
+  - type: markdown
+    attributes:
+      value: |
+        For more information, please refer to the [contribute guidelines](https://github.com/Jineeary/meetro/blob/main/CONTRIBUTING.md)!

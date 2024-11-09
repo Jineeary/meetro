@@ -1,6 +1,6 @@
 # Contributing to [Meetro]!😄
 
-### Looking for the perfect meeting place? Find Meetro! 🪄🧩🚄🚅🚊
+### Looking for the perfect meeting place? Find Meetro! 🪄🚊
 
 # Overview of the Project
 
@@ -21,7 +21,7 @@ Also, spreading the news will help us a lot! 😊❤️
 Applause in advance for the project that will be completed in a great way 👏👏👏
 
 However, please check the code of conduct below and pay attention to and respect the contribution method
-[Code of Conduct] (code_of_conduct link)
+[Code of Conduct](https://github.com/Jineeary/meetro/blob/main/CODE_OF_CONDUCT.md#meetro-code-of-conduct)
 
 ## Ways to contribute
 
@@ -32,15 +32,15 @@ There are many ways you can contribute to Transformers.
 * Implement new models.
 * Contribute to the examples or to the documentation.
 
-Not sure where to start? See the [first question](https://github.com/huggingface/transformers/tree/main/templates) list!
+Not sure where to start? See the [first question](https://github.com/Jineeary/meetro?tab=readme-ov-file#----meetro-effortless-meetup-planning-at-metro-stations) list!
 
-If you've solved the first problem, or you want a more challenging one, please refer to the [second problem](https://github.com/huggingface/transformers/tree/main/templates) list!
+If you've solved the first problem, or you want a more challenging one, please refer to the [second problem](https://github.com/Jineeary/meetro?tab=readme-ov-file#----meetro-effortless-meetup-planning-at-metro-stations) list!
 
 Any contribution is welcome. Every contribution is worth a lot to us! 😍
 
 ## Fix outstanding issues
 
-Do you think there's something wrong with the existing code? Please don't [hesitate](create-a-pull-request) to create a pull request!
+Do you think there's something wrong with the existing code? Please don't hesitate to create a [pull request](https://github.com/Jineeary/meetro/pulls)!
 
 ## Submitting a bug-related issue or feature request
 
@@ -53,14 +53,14 @@ If you ask, we can answer you quickly and with a good answer.
 ### Did you find a bug?
 
 ⚠️ Before reporting the issue, please check the following
-I'd appreciate it if you could **check if it's a bug already reported**!
+I'd appreciate it if you could **check if it's a [bug already reported](https://github.com/Jineeary/meetro/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml)**!
 
 The problem should be related to the bug in the library itself, not the code. 
 
-If you're not sure if the bug is in the code or in the library, please ask us first at [mail](duswlsgodqhr@naver.com )! This way we can respond faster.😎
+If you're not sure if the bug is in the code or in the library, please ask us first at [mail](duswlsgodqhr@naver.com)! This way we can respond faster.😎
 
 >[!tip]
->We have a number of other [emails](email2). If you don't get an answer, please refer to it!
+>We have [chatbot](https://open.kakao.com/o/sIczM5Yg)! If you don't get an answer, please refer to it! You can get a response within 24 hours ❤️
 
 If you have confirmed that the bug has not been reported yet, please include the information below in the problem so that it can be resolved quickly
 
@@ -88,7 +88,7 @@ Whatever the idea is, we want to listen to it! Please explain!😄
 3. Please show me how to use it through the code.
 4. Please include the link if the feature is related to the paper.
 
-I'll help you solve your problem! Please let me know through the [templete](https://github.com/huggingface/transformers/tree/main/templates).
+I'll help you solve your problem! Please let me know through the [templete](https://github.com/Jineeary/meetro/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml).
 
 ## Do you want to implement a new model?
 
@@ -100,15 +100,15 @@ New models are constantly coming out. Do you want to give us information on new 
 
 Please let me know if you would like to contribute directly to the model. I'll help you add it to **transformer**!
 
-[Technical Guide](https://github.com/huggingface/transformers/tree/main/templates) will tell you how to add a model!
+[Technical Guide](https://github.com/Jineeary/meetro?tab=readme-ov-file#----meetro-effortless-meetup-planning-at-metro-stations) will tell you how to add a model!
 
 ## Do you want to add documentation?
 
 We are always trying to provide more accurate and clearer documents 😖💦
 
-Are there any typos, omissions, or unclear additions? Send us a [mail](메일주소)
+Are there any typos, omissions, or unclear additions? Send us a [mail](duswlsgodqhr@naver.com)
 
-Creating, building, and writing documents also helps us. See [Document](https://github.com/huggingface/transformers/tree/main/docs) for more information.
+Creating, building, and writing documents also helps us. See [Document](https://github.com/Jineeary/meetro?tab=readme-ov-file#----meetro-effortless-meetup-planning-at-metro-stations) for more information.
 
 ## Create a Pull Request
 
@@ -119,8 +119,8 @@ This is necessary to create a **Pull Request**.
 
 * method
   
-    ① Fork the [repository](https://github.com/huggingface/transformers) by
-       clicking on the **[Fork](https://github.com/huggingface/transformers/fork)** button on the repository's page. This creates a copy of the code
+    ① Fork the [repository](https://github.com/about) by
+       clicking on the **[Fork](https://github.com/about)** button on the repository's page. This creates a copy of the code
        under your GitHub user account.
     
     ② Clone your fork to your local disk, and add the base repository as a remote:
@@ -153,7 +153,7 @@ This is necessary to create a **Pull Request**.
        ```bash
        pytest tests/<TEST_TO_RUN>.py
        ```
-    If you want to [test](https://huggingface.co/docs/transformers/testing), click here!
+    If you want to [test](https://github.com/Jineeary/meetro/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml), click here!
     
     🤗 Transformers relies on `black` and `ruff` to format its source code
        consistently. After you make changes, apply automatic style corrections and code verifications
@@ -187,7 +187,7 @@ This is necessary to create a **Pull Request**.
        ```
     
        To learn more about those checks and how to fix any issues with them, check out the
-       [Checks on a Pull Request](https://huggingface.co/docs/transformers/pr_checks) guide.
+       [Checks on a Pull Request] guide.
     
        If you're modifying documents under the `docs/source` directory, make sure the documentation can still be built. This check will also run in the CI when you open a pull request. To run a local check
        make sure you install the documentation builder:
@@ -214,7 +214,7 @@ This is necessary to create a **Pull Request**.
        ```
     
        Please remember to write [good commit
-       messages](https://chris.beams.io/posts/git-commit/) to clearly communicate the changes you made!
+       messages] to clearly communicate the changes you made!
     
        To keep your copy of the code up to date with the original
        repository, rebase your branch on `upstream/branch` *before* you open a pull request or if requested by a maintainer:
@@ -232,7 +232,7 @@ This is necessary to create a **Pull Request**.
     
        If you've already opened a pull request, you'll need to force push with the `--force` flag. Otherwise, if the pull request hasn't been opened yet, you can just push your changes normally.
     
-    ⑥ Now you can go to your fork of the repository on GitHub and click on **Pull Request** to open a pull request. Make sure you tick off all the boxes on our [checklist](#pull-request-checklist) below. When you're ready, you can send your changes to the project maintainers for review.
+    ⑥ Now you can go to your fork of the repository on GitHub and click on **Pull Request** to open a pull request. Make sure you tick off all the boxes on our [checklist](https://github.com/Jineeary/meetro/blob/main/CONTRIBUTING.md#pull-request-checklist) below. When you're ready, you can send your changes to the project maintainers for review.
     
     ⑦ It's ok if maintainers request changes, it happens to our core contributors
        too! So everyone can see the changes in the pull request, work in your local
@@ -251,13 +251,13 @@ This is necessary to create a **Pull Request**.
 
 ☐ Is there an informative text in the method you want to reveal?
 
-☐ Please do not add images, videos, and other items! If you would like to forward any relevant information to us, please use [mail](duswlsgodqhr@naver.com)!
+☐ Please do not add images, videos, and other items! If you would like to forward any relevant information to us, please use [mail](duswlsgodqhr@naver.com) or [chatbot](https://open.kakao.com/o/sIczM5Yg)!
 
 ☐ Did you conduct the Pull request test?
 
 ### Tests
 
-If you want to check the code's operation and output value, please use the [test folder](https://github.com/huggingface/transformers/tree/main/tests).
+If you want to check the code's operation and output value, please use the [test folder](https://github.com/Jineeary/meetro/blob/main/.github/ISSUE_TEMPLATE/custom.yml).
 
 Always watch out for the **main folder**!⚠️
 

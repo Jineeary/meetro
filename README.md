@@ -47,13 +47,12 @@ limitations under the License.
     </p>
 </h4>
 
-<h2 align="center">
-    <p>The optimal solution to find the midpoint!</p>
-
 <h3 align="center">
     <a href="http://127.0.0.1:5500"><img src="https://github.com/Jineeary/meetro/blob/main/image/img_subway.png"></a>
 </h3>
 
+<h2 align="center">
+    <p>The optimal solution to find the midpoint!</p>
 </h2>
 
 ## Overview

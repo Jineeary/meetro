@@ -17,3 +17,5 @@ exclude_patterns = []  # 제외할 파일 및 디렉토리 패턴
 # -- Options for HTML output -------------------------------------------------
 html_theme = 'alabaster'  # HTML 테마 (다른 테마를 사용할 수도 있음)
 html_static_path = ['_static']  # 정적 파일 경로
+
+master_doc = 'index'  # 마스터 문서가 'index.rst'임을 명시

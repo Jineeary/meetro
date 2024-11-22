@@ -1,0 +1,19 @@
+# Configuration file for the Sphinx documentation builder.
+
+# -- Project information -----------------------------------------------------
+project = 'Project Name' 
+author = 'Your Name'
+release = '1.0.0'         # 릴리스 버전 (예: '1.0.0')
+
+# -- General configuration ---------------------------------------------------
+extensions = [  # Sphinx 확장 모듈
+    'sphinx.ext.autodoc',    # 자동 문서화
+    'sphinx.ext.napoleon',   # NumPy & Google 스타일 docstring 지원
+]
+
+templates_path = ['_templates']  # 템플릿 경로
+exclude_patterns = []  # 제외할 파일 및 디렉토리 패턴
+
+# -- Options for HTML output -------------------------------------------------
+html_theme = 'alabaster'  # HTML 테마 (다른 테마를 사용할 수도 있음)
+html_static_path = ['_static']  # 정적 파일 경로

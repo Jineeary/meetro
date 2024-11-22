@@ -1,9 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information -----------------------------------------------------
-project = 'Project Name' 
-author = 'Your Name'
-release = '1.0.0'         # 릴리스 버전 (예: '1.0.0')
+project = 'meetro' 
+author = 'Jineeary'
+release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
 extensions = [  # Sphinx 확장 모듈

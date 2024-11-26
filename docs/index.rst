@@ -21,17 +21,10 @@ Contents:
    maintainance_and_troubleshooting
    release_notes
    technical_overview
+   how_to_use
+   release_notes
 
 This is home page
- ===== ===== =======
- A     B     A and B
- ===== ===== =======
- False False False
- True  False False
- False True  False
- True  True  True
- ===== ===== =======
-
 
 .. note:: 
    This is Meetro page!

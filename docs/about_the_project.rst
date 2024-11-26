@@ -33,10 +33,17 @@ Key Features
 Meetro’s unique scoring system ensures users are recommended a central subway station with the best nearby attractions. 
 
 **Core Functionalities**:  
-1. **Midpoint Calculation with Flexible Range**: Prioritize stations with nearby attractions within a flexible midpoint range.
-2. **Attraction Weighting**: Assign higher weights to popular attractions (e.g., amusement parks, malls) for better recommendations. 
-3. **Station Scoring**: Evaluate subway stations based on proximity to the midpoint and attraction ratings.
-4. **Optimized Recommendations**: Suggest stations with the highest scores for a balanced mix of convenience and enjoyment.
+1. **Midpoint Calculation with Flexible Range**:  
+   Prioritize stations with nearby attractions within a flexible midpoint range.
+
+2. **Attraction Weighting**:  
+   Assign higher weights to popular attractions (e.g., amusement parks, malls) for better recommendations.
+
+3. **Station Scoring**:  
+   Evaluate subway stations based on proximity to the midpoint and attraction ratings.
+
+4. **Optimized Recommendations**:  
+   Suggest stations with the highest scores for a balanced mix of convenience and enjoyment.
 
 Differentiation: Why Meetro Stands Out
 --------------------------------------

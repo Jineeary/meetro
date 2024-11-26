@@ -21,7 +21,6 @@ Contents:
    maintainance_and_troubleshooting
    release_notes
    technical_overview
-   release_notes
 
 This is home page
 

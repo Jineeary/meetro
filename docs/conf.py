@@ -11,7 +11,7 @@ extensions = [  # Sphinx 확장 모듈
     'sphinx.ext.napoleon',   # NumPy & Google 스타일 docstring 지원
 ]
 
-languaage='Meetro_ossw24'
+language='Meetro_ossw24'
 templates_path = ['_templates']  # 템플릿 경로
 exclude_patterns = []  # 제외할 파일 및 디렉토리 패턴
 

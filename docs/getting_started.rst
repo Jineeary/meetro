@@ -1,6 +1,6 @@
 Getting Started
 ===============
-
+ 
 This guide will help you set up and run **Meetro** on your local machine for development and testing purposes. Follow the steps below to install the necessary tools, set up the environment, and start using the application.
 
 Prerequisites

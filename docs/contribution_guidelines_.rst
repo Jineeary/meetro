@@ -5,7 +5,7 @@ We welcome contributions to this project! This page outlines how to contribute t
 
 1. Getting Started
 ------------------
-
+ 
 Before contributing, please ensure you:
 
 1. Fork the repository to your own GitHub account.

@@ -1,7 +1,7 @@
 Release Notes
 ============
 
-Version 1.0.0
+Version 1.0.0 
 -------------
 **Release Date**: 2024-11-26
 

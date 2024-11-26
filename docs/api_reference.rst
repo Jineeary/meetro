@@ -2,7 +2,7 @@ API Reference
 =============
 
 Overview
---------
+---------
 Meetro provides APIs to calculate midpoints, recommend nearby subway stations, and retrieve attraction data.
 
 Endpoints

@@ -11,18 +11,21 @@ Endpoints
    - **URL**: `/api/calculate-midpoint`
    - **Method**: POST
    - **Request Body** (JSON):
-     ```json
-     {
-         "locations": ["Seoul Station", "Gangnam Station"]
-     }
-     ```
+     
+     .. code-block:: json
+     
+        {
+            "locations": ["Seoul Station", "Gangnam Station"]
+        }
+
    - **Response** (JSON):
-     ```json
-     {
-         "midpoint": "Sadang Station",
-         "nearby_attractions": ["Seoul Land", "Seoul Arts Center"]
-     }
-     ```
+     
+     .. code-block:: json
+     
+        {
+            "midpoint": "Sadang Station",
+            "nearby_attractions": ["Seoul Land", "Seoul Arts Center"]
+        }
 
 2. **Recommend Station**
    - **URL**: `/api/recommend-station`
@@ -30,19 +33,22 @@ Endpoints
    - **Query Parameters**:
      - `midpoint`: "Sadang Station"
    - **Response** (JSON):
-     ```json
-     {
-         "station": "Gangnam Station",
-         "attractions": ["COEX", "Lotte World"]
-     }
-     ```
+     
+     .. code-block:: json
+     
+        {
+            "station": "Gangnam Station",
+            "attractions": ["COEX", "Lotte World"]
+        }
 
 Examples
 --------
 - **Python**
-  ```python
-  import requests
-  response = requests.post("http://example.com/api/calculate-midpoint", json={
-      "locations": ["Seoul Station", "Gangnam Station"]
-  })
-  print(response.json())
+  
+  .. code-block:: python
+  
+     import requests
+     response = requests.post("http://example.com/api/calculate-midpoint", json={
+         "locations": ["Seoul Station", "Gangnam Station"]
+     })
+     print(response.json())

@@ -1,7 +1,7 @@
 Contribution Guidelines
 ========================
 
-We welcome contributions to this project! This document outlines the process and guidelines for contributing, including coding standards and submission procedures.
+We welcome contributions to this project! This page outlines how to contribute to the **Meetro** project. This document outlines the process and guidelines for contributing, including coding standards and submission procedures.
 
 1. Getting Started
 ------------------
@@ -54,7 +54,7 @@ To maintain consistency and readability across the project, follow these coding 
   - Use the `pytest` framework for testing.
   - Place tests in the `tests/` directory.
 
-3. How to Submit Contributions
+3. Step to Contribute
 ------------------------------
 
 Follow these steps to submit your contribution:
@@ -113,3 +113,7 @@ Please adhere to the project's Code of Conduct. Be respectful and constructive i
 - [PEP 8 Python Style Guide](https://peps.python.org/pep-0008/)
 - [GitHub Flow](https://guides.github.com/introduction/flow/)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+
+
+Thank You for Contributing!
+

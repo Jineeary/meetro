@@ -1,19 +1,10 @@
-# 사이트 기본 설정
 title: "Meetro Project"
 description: "A Jekyll site for Meetro"
-baseurl: "/forty-jekyll-theme"
-url: "http://127.0.0.1:4000" # 로컬 서버 URL
+baseurl: "" # 로컬 테스트 시 공백
+url: "https://Jineeary.github.io/meetro" # GitHub Pages URL
 
-# 테마 설정
-theme: forty-jekyll-theme # 기본 테마 설정 (원하는 테마로 변경 가능)
-
-# 마크다운 설정
+theme: forty-jekyll-theme # 테마 이름
 markdown: kramdown
 
-# 사이트 소스와 출력 경로
-source: .
-destination: ./_site
-
-# 플러그인 설정
 plugins:
   - jekyll-feed

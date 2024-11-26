@@ -1,9 +1,3 @@
-
----
-
-### **Release Notes (release_notes.rst)**
-
-```rst
 Release Notes
 ============
 

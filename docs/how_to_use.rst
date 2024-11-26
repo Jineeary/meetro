@@ -1,4 +1,4 @@
-Usage
+How to Use
 =====
 
 To use this project, follow these steps:

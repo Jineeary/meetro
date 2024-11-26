@@ -2,7 +2,7 @@ Technical Overview
 ===================
 
 Introduction
-------------
+------------ 
 Meetro is a web service that helps users find the most convenient meeting point, focusing on subway stations and nearby attractions.
 
 Architecture

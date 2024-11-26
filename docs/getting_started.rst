@@ -16,7 +16,7 @@ Before you begin, ensure that you have the following installed:
 3. **Git**  
    Download and install from [Git Official Website](https://git-scm.com/).
 
-4. **Kakao Maps API Key** (for map and attraction data)  
+4. **Kakao Map API Key** (for map and attraction data)  
    Visit the [Kakao Map](https://apis.map.kakao.com/) to create a project and obtain an API key.
 
 Installation

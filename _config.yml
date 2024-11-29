@@ -5,7 +5,7 @@ description: "A Jekyll site for Meetro"
 baseurl: "" # 로컬 테스트 시 공백
 url: "https://Jineeary.github.io/meetro/" # GitHub Pages URL
 markdown: kramdown
-theme: forty-jekyll-theme
+theme: jekyll-theme-cayman
 
 # 제외할 파일 설정
 exclude:

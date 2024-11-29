@@ -1,10 +1,18 @@
+# 기존 사이트 설정 유지 및 Forty 테마 설정 추가
+
 title: "Meetro Project"
 description: "A Jekyll site for Meetro"
 baseurl: "" # 로컬 테스트 시 공백
 url: "https://Jineeary.github.io/meetro/" # GitHub Pages URL
-
 theme: forty-jekyll-theme # 테마 이름
 markdown: kramdown
+
+# 제외할 파일 설정
+exclude:
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md
 
 plugins:
   - jekyll-feed

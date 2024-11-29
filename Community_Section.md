@@ -1,85 +1,95 @@
 ---
-title: Landing
-layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
+title: Community Section
+layout: community_section
+description: 'Connect, collaborate, and contribute to our community!😄'
 nav-menu: true
 ---
 
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
-<section id="one">
+<!-- Intro Section -->
+<section id="intro">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>Welcome to Our Community🪄</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>Our community is a space where users and developers work together to complete projects. Let's solve any idea, any problem, together!</p>
 	</div>
 </section>
 
-<!-- Two -->
-<section id="two" class="spotlights">
+<!-- Discussion Forum Section -->
+<section id="DiscussionForum" class="spotlights">
+	<div class="inner">
+		<header class="major">
+			<h2>Discussion Forum</h2>
+		</header>
+		<p>Want to give us an opinion? Meetro's GitHub Discussions is always open!</p>
+		<ul class="actions">
+			<li><a href="https://github.com/Jineeary/meetro/discussions" class="button">Join Discussion</a></li>
+		</ul>
+	</div>
+</section>
+
+<!-- Mailing List Section -->
+<section id="mailing-list">
+	<div class="inner">
+		<header class="major">
+			<h2>Mailing List</h2>
+		</header>
+		<p>Subscribe to our mailing list to receive updates, announcements, and more!</p>
+		<ul class="actions">
+			<li><a href="https://meetro-mailing-list.com" class="button next">Subscribe</a></li>
+		</ul>
+	</div>
+</section>
+
+<!-- Communication Channels Section -->
+<section id="communication-channels" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+		<a href="https://your-slack-link.com" class="image">
+			<img src="{% link assets/images/slack.jpg %}" alt="Slack" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>Slack</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>Join our Slack workspace to collaborate and chat with other community members in real time.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="https://your-slack-link.com" class="button">Join Slack</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
+		<a href="https://your-discord-link.com" class="image">
+			<img src="{% link assets/images/discord.jpg %}" alt="Discord" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>Discord</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>Join our Discord server to engage with fellow developers and users in a friendly environment.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Sed nunc ligula</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="https://your-discord-link.com" class="button">Join Discord</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 </section>
 
-<!-- Three -->
-<section id="three">
+<!-- Contact Section -->
+<section id="contact">
 	<div class="inner">
 		<header class="major">
-			<h2>Massa libero</h2>
+			<h2>Contact Us</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<p>Have questions or need assistance? Reach out to us via email or our contact form.</p>
 		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
+			<li><a href="mailto:contact@yourproject.com" class="button">Email Us</a></li>
+			<li><a href="https://your-contact-form-link.com" class="button next">Contact Form</a></li>
 		</ul>
 	</div>
 </section>

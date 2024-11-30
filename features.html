@@ -4,37 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meetro - Feature Showcase</title>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Outfit', 'Raleway', Arial, sans-serif;
+      font-family: 'Poppins', 'Outfit', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #0f172a;
+      background-color: #0f172a;
       color: #e5e7eb;
       line-height: 1.6;
+      scroll-behavior: smooth;
     }
     nav {
       position: fixed;
       top: 0;
       width: 100%;
-      background: rgba(30, 41, 59, 0.9);
+      background: #1e293b;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding: 15px 40px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      justify-content: flex-start;
+      padding: 15px 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
       z-index: 1000;
-      backdrop-filter: blur(10px);
     }
     nav .logo {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #38bdf8;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #3b82f6;
+      margin-right: 20px;
     }
     nav ul {
       display: flex;
-      gap: 20px;
+      gap: 15px;
       list-style: none;
       margin: 0;
       padding: 0;
@@ -43,17 +44,14 @@
       font-size: 1rem;
       text-decoration: none;
       color: #e5e7eb;
-      padding: 8px 12px;
-      transition: color 0.3s, background 0.3s;
+      transition: color 0.3s;
     }
     nav ul li a:hover {
-      background: #38bdf8;
-      color: #0f172a;
-      border-radius: 8px;
+      color: #3b82f6;
     }
     header {
-      height: 60vh;
-      background: linear-gradient(135deg, #2563eb, #1e40af);
+      height: 50vh;
+      background: linear-gradient(135deg, #1e40af, #0f172a);
       color: #f1f5f9;
       display: flex;
       flex-direction: column;
@@ -61,45 +59,46 @@
       align-items: center;
       text-align: center;
       padding: 0 20px;
-      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     }
     header h1 {
-      font-size: 3.5rem;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 800;
+      font-size: 3rem;
+      font-family: 'Outfit', sans-serif;
       margin-bottom: 20px;
     }
     header p {
-      font-size: 1.4rem;
-      max-width: 700px;
-      line-height: 1.8;
-      margin-top: 10px;
+      font-size: 1.3rem;
+      max-width: 600px;
       opacity: 0.9;
     }
     .container {
       max-width: 1200px;
-      margin: -50px auto 40px;
+      margin: 40px auto;
       background: #1e293b;
       border-radius: 12px;
-      padding: 30px 40px;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+      padding: 20px 40px;
+      color: #f1f5f9;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
     h2 {
       font-size: 2.5rem;
       color: #38bdf8;
       margin-bottom: 20px;
-      font-family: 'Raleway', sans-serif;
       text-align: center;
+      font-family: 'Outfit', sans-serif;
     }
     .feature-item {
       margin-bottom: 40px;
+      padding: 20px;
+      border: 1px solid #38bdf8;
+      border-radius: 8px;
+      background: rgba(30, 41, 59, 0.8);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
     .feature-item h3 {
       font-size: 1.8rem;
       color: #f1f5f9;
-      margin-bottom: 15px;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 700;
+      margin-bottom: 10px;
+      font-family: 'Outfit', sans-serif;
     }
     .feature-item p {
       font-size: 1.1rem;
@@ -108,45 +107,33 @@
       margin-bottom: 20px;
     }
     .feature-item ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 10px;
+      list-style: disc;
+      padding-left: 20px;
     }
     .feature-item ul li {
-      position: relative;
-      margin-bottom: 12px;
-      padding-left: 25px;
+      margin-bottom: 8px;
       font-size: 1rem;
       color: #e5e7eb;
-    }
-    .feature-item ul li::before {
-      content: "✔";
-      position: absolute;
-      left: 0;
-      color: #38bdf8;
-      font-weight: bold;
     }
     .comparison-table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 20px;
-      color: #f1f5f9;
+      border-radius: 8px;
       overflow: hidden;
-      border-radius: 10px;
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     }
     .comparison-table th, .comparison-table td {
-      border: 1px solid #38bdf8;
       padding: 15px;
       text-align: center;
     }
     .comparison-table th {
       background: #2563eb;
-      color: #fff;
+      color: #ffffff;
       font-weight: 700;
     }
     .comparison-table td {
-      background: #1e293b;
+      background: rgba(30, 41, 59, 0.8);
+      color: #e5e7eb;
     }
     footer {
       background: #0f172a;
@@ -175,32 +162,32 @@
 
   <header>
     <h1>Feature Showcase</h1>
-    <p>Experience the cutting-edge features of Meetro and make meeting friends effortless, efficient, and exciting!</p>
+    <p>Discover the cutting-edge features of Meetro that make meeting friends seamless and efficient!</p>
   </header>
 
   <div class="container">
     <h2>Main Features</h2>
     <div class="feature-item">
       <h3>1. Midpoint Subway Recommendations</h3>
-      <p>Meetro intelligently calculates the optimal subway station for meetups based on user locations and nearby attractions.</p>
+      <p>Meetro intelligently calculates the best subway station for group meetups based on user locations and nearby attractions.</p>
       <ul>
-        <li>Wide-range midpoint calculation with flexible scoring.</li>
-        <li>Prioritizes stations with popular landmarks.</li>
-        <li>Real-time data updates for accurate recommendations.</li>
+        <li>Dynamic midpoint calculations tailored to group preferences.</li>
+        <li>Attraction scoring for landmarks and popular spots.</li>
+        <li>Real-time updates using reliable mapping APIs.</li>
       </ul>
     </div>
     <div class="feature-item">
       <h3>2. Nearby Attractions</h3>
-      <p>Get personalized recommendations for attractions near the suggested midpoint, making your meetup fun and memorable.</p>
+      <p>Explore curated recommendations for attractions near the suggested midpoint to enhance your meetup experience.</p>
       <ul>
-        <li>Dynamic data reflecting current trends and preferences.</li>
-        <li>Includes amusement parks, shopping malls, and local gems.</li>
-        <li>Filter attractions by category to suit group interests.</li>
+        <li>Prioritized suggestions based on popularity and relevance.</li>
+        <li>Filters for categories like shopping, dining, and entertainment.</li>
+        <li>Up-to-date data reflecting current trends.</li>
       </ul>
     </div>
     <div class="feature-item">
       <h3>3. Differentiation</h3>
-      <p>Meetro stands out with innovative features compared to traditional solutions:</p>
+      <p>Meetro offers unique features that set it apart from traditional solutions:</p>
       <table class="comparison-table">
         <thead>
           <tr>
@@ -211,19 +198,19 @@
         </thead>
         <tbody>
           <tr>
-            <td>Simple midpoint calculation</td>
-            <td>Landmark-focused recommendations</td>
-            <td>Enhances user experience with tailored suggestions</td>
+            <td>Basic midpoint suggestions</td>
+            <td>Landmark-based recommendations</td>
+            <td>Enhanced meetup experiences</td>
           </tr>
           <tr>
-            <td>Outdated information</td>
+            <td>Outdated data</td>
             <td>Real-time updates</td>
-            <td>Keeps recommendations relevant and fresh</td>
+            <td>Accurate and reliable suggestions</td>
           </tr>
           <tr>
-            <td>Limited data</td>
-            <td>Extensive data integration</td>
-            <td>Provides diverse options for meetups</td>
+            <td>Limited options</td>
+            <td>Diverse attraction data</td>
+            <td>Broader choices for users</td>
           </tr>
         </tbody>
       </table>

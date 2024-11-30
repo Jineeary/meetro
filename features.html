@@ -13,7 +13,6 @@
       background-color: #0f172a;
       color: #e5e7eb;
       line-height: 1.6;
-      scroll-behavior: smooth;
     }
     nav {
       position: fixed;
@@ -86,6 +85,15 @@
       text-align: center;
       font-family: 'Outfit', sans-serif;
     }
+    .subway-map {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .subway-map img {
+      max-width: 80%;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
     .feature-item {
       margin-bottom: 40px;
       padding: 20px;
@@ -94,26 +102,12 @@
       background: rgba(30, 41, 59, 0.8);
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
-    .feature-item h3 {
-      font-size: 1.8rem;
-      color: #f1f5f9;
-      margin-bottom: 10px;
-      font-family: 'Outfit', sans-serif;
-    }
-    .feature-item p {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      color: #9ca3af;
-      margin-bottom: 20px;
-    }
     .feature-item ul {
       list-style: disc;
       padding-left: 20px;
     }
     .feature-item ul li {
       margin-bottom: 8px;
-      font-size: 1rem;
-      color: #e5e7eb;
     }
     .comparison-table {
       width: 100%;
@@ -162,14 +156,18 @@
 
   <header>
     <h1>Feature Showcase</h1>
-    <p>Discover the cutting-edge features of Meetro that make meeting friends seamless and efficient!</p>
+    <p>Seamlessly find the perfect subway station with Meetro's advanced features.</p>
   </header>
 
   <div class="container">
     <h2>Main Features</h2>
+    <div class="subway-map">
+      <img src="https://github.com/Jineeary/meetro/blob/main/image/img_subway_modified.jpg?raw=true" alt="Seoul Metro Map">
+      <p style="margin-top: 10px; font-size: 1rem; color: #9ca3af;">A comprehensive view of Seoul's subway system utilized by Meetro.</p>
+    </div>
     <div class="feature-item">
       <h3>1. Midpoint Subway Recommendations</h3>
-      <p>Meetro intelligently calculates the best subway station for group meetups based on user locations and nearby attractions.</p>
+      <p>Meetro intelligently calculates the best subway station for meetups, considering user preferences and nearby attractions.</p>
       <ul>
         <li>Dynamic midpoint calculations tailored to group preferences.</li>
         <li>Attraction scoring for landmarks and popular spots.</li>

@@ -22,8 +22,10 @@
       width: 100%;
       background: #1e293b;
       display: flex;
+      flex-wrap: wrap; /* 좁은 화면에서 줄바꿈 */
       align-items: center;
-      padding: 15px 20px; /* 좌우 여백 조정 */
+      justify-content: flex-start; /* 왼쪽 정렬 */
+      padding: 15px 20px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
       z-index: 1000;
     }
@@ -31,11 +33,12 @@
       font-size: 1.8rem;
       font-weight: 600;
       color: #3b82f6;
-      margin-right: auto; /* 로고는 왼쪽에 배치 */
+      margin-right: 20px; /* 로고와 메뉴 간 간격 */
     }
     nav ul {
       display: flex;
-      gap: 20px; /* 메뉴 간격 조정 */
+      flex-wrap: wrap; /* 메뉴가 화면에 맞게 줄바꿈 */
+      gap: 15px; /* 메뉴 간 간격 */
       list-style: none;
       margin: 0;
       padding: 0;
@@ -100,6 +103,16 @@
     footer p {
       font-size: 0.9rem;
       margin: 0;
+    }
+    /* 반응형 디자인 */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column; /* 세로 정렬 */
+        align-items: flex-start; /* 왼쪽 정렬 */
+      }
+      nav .logo {
+        margin-bottom: 10px;
+      }
     }
   </style>
 </head>

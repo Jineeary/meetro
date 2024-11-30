@@ -6,7 +6,6 @@
   <title>Meetro - Find Your Perfect Meeting Spot</title>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    /* Global styles */
     body {
       font-family: 'Poppins', 'Outfit', Arial, sans-serif;
       margin: 0;
@@ -22,9 +21,8 @@
       width: 100%;
       background: #1e293b;
       display: flex;
-      flex-wrap: wrap; /* 좁은 화면에서 줄바꿈 */
       align-items: center;
-      justify-content: flex-start; /* 왼쪽 정렬 */
+      justify-content: flex-start;
       padding: 15px 20px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
       z-index: 1000;
@@ -33,12 +31,12 @@
       font-size: 1.8rem;
       font-weight: 600;
       color: #3b82f6;
-      margin-right: 20px; /* 로고와 메뉴 간 간격 */
+      margin-right: 20px;
     }
     nav ul {
       display: flex;
-      flex-wrap: wrap; /* 메뉴가 화면에 맞게 줄바꿈 */
-      gap: 15px; /* 메뉴 간 간격 */
+      flex-wrap: wrap;
+      gap: 15px;
       list-style: none;
       margin: 0;
       padding: 0;
@@ -76,6 +74,41 @@
       max-width: 600px;
       opacity: 0.9;
     }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      background: #1e293b;
+      border-radius: 12px;
+      padding: 20px;
+      color: #f1f5f9;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    .content-section {
+      margin-bottom: 40px;
+    }
+    .content-section h2 {
+      font-size: 2rem;
+      color: #3b82f6;
+      margin-bottom: 15px;
+      font-family: 'Outfit', sans-serif;
+    }
+    .content-section p, .content-section ul li {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #9ca3af;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 10px 0;
+    }
+    ul li::before {
+      content: "⟡";
+      color: #3b82f6;
+      margin-right: 8px;
+    }
     .btn {
       display: inline-block;
       background-color: #3b82f6;
@@ -104,16 +137,6 @@
       font-size: 0.9rem;
       margin: 0;
     }
-    /* 반응형 디자인 */
-    @media (max-width: 768px) {
-      nav {
-        flex-direction: column; /* 세로 정렬 */
-        align-items: flex-start; /* 왼쪽 정렬 */
-      }
-      nav .logo {
-        margin-bottom: 10px;
-      }
-    }
   </style>
 </head>
 <body>
@@ -134,6 +157,37 @@
     <p>Your ultimate solution for finding the best meeting spot with friends, based on subway locations.</p>
     <a href="features.html" class="btn">Explore Features</a>
   </header>
+
+  <div class="container">
+    <div class="content-section">
+      <h2>About Meetro</h2>
+      <p>Meetro is an innovative project designed to help friends easily find the perfect meeting place. By entering your locations, Meetro calculates the best midpoint subway station, ensuring a convenient and enjoyable spot for everyone. With Meetro, you can:</p>
+      <ul>
+        <li>Find midpoint subway stations with ease</li>
+        <li>Explore nearby attractions and popular meeting spots</li>
+        <li>Save time and effort when planning meetups with friends</li>
+      </ul>
+    </div>
+
+    <div class="content-section">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Midpoint Subway Recommendations: Find the best subway station to meet, based on location data.</li>
+        <li>Nearby Attractions: Suggest places near the meeting point to make your meetup more fun.</li>
+        <li>Efficient Planning: Avoid the hassle of deciding on a midpoint by using our automated tools.</li>
+      </ul>
+    </div>
+
+    <div class="content-section">
+      <h2>Team Members</h2>
+      <ul>
+        <li>김연진 (Yeon-jin Kim): Data Collector</li>
+        <li>염예은 (Ye-eun Yeom): Code Manager</li>
+        <li>김여진 (Yeo-jin Kim): Website Creator</li>
+        <li>윤수빈 (Soo-bin Yun): Project Leader</li>
+      </ul>
+    </div>
+  </div>
 
   <footer>
     <p>&copy; 2024 Meetro. All Rights Reserved.</p>

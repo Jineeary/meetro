@@ -63,6 +63,7 @@
       align-items: center;
       text-align: center;
       padding: 0 20px;
+      position: relative;
     }
     header h1 {
       font-size: 4rem;
@@ -73,6 +74,25 @@
       font-size: 1.3rem;
       max-width: 600px;
       opacity: 0.9;
+    }
+    .scroll-down {
+      position: absolute;
+      bottom: 20px;
+      font-size: 1.2rem;
+      color: #9ca3af;
+      text-decoration: none;
+      animation: bounce 2s infinite;
+    }
+    .scroll-down:hover {
+      color: #3b82f6;
+    }
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(10px);
+      }
     }
     .container {
       max-width: 1200px;
@@ -103,11 +123,6 @@
     }
     ul li {
       margin: 10px 0;
-    }
-    ul li::before {
-      content: "⟡";
-      color: #3b82f6;
-      margin-right: 8px;
     }
     .btn {
       display: inline-block;
@@ -155,10 +170,10 @@
   <header>
     <h1>Welcome to Meetro</h1>
     <p>Your ultimate solution for finding the best meeting spot with friends, based on subway locations.</p>
-    <a href="features.html" class="btn">Explore Features</a>
+    <a href="#about" class="scroll-down">▼ Scroll Down</a>
   </header>
 
-  <div class="container">
+  <div id="about" class="container">
     <div class="content-section">
       <h2>About Meetro</h2>
       <p>Meetro is an innovative project designed to help friends easily find the perfect meeting place. By entering your locations, Meetro calculates the best midpoint subway station, ensuring a convenient and enjoyable spot for everyone. With Meetro, you can:</p>
@@ -170,22 +185,10 @@
     </div>
 
     <div class="content-section">
-      <h2>Key Features</h2>
-      <ul>
-        <li>Midpoint Subway Recommendations: Find the best subway station to meet, based on location data.</li>
-        <li>Nearby Attractions: Suggest places near the meeting point to make your meetup more fun.</li>
-        <li>Efficient Planning: Avoid the hassle of deciding on a midpoint by using our automated tools.</li>
-      </ul>
-    </div>
-
-    <div class="content-section">
-      <h2>Team Members</h2>
-      <ul>
-        <li>김연진 (Yeon-jin Kim): Data Collector</li>
-        <li>염예은 (Ye-eun Yeom): Code Manager</li>
-        <li>김여진 (Yeo-jin Kim): Website Creator</li>
-        <li>윤수빈 (Soo-bin Yun): Project Leader</li>
-      </ul>
+      <h2>Documentation & GitHub</h2>
+      <p>Explore Meetro's full documentation and contribute to its development on GitHub:</p>
+      <a href="https://meetro.readthedocs.io/en/latest/" class="btn">Live Documentation</a>
+      <a href="https://github.com/jineeary/meetro" class="btn">GitHub Repository</a>
     </div>
   </div>
 

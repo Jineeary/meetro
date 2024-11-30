@@ -111,6 +111,24 @@
     .feature-item ul li {
       margin-bottom: 8px;
     }
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      color: #f1f5f9;
+    }
+    .comparison-table th, .comparison-table td {
+      border: 1px solid #3b82f6;
+      padding: 10px;
+      text-align: center;
+    }
+    .comparison-table th {
+      background-color: #2563eb;
+      color: #fff;
+    }
+    .comparison-table td {
+      background-color: #1e293b;
+    }
     footer {
       background: #0f172a;
       color: #9ca3af;
@@ -147,28 +165,49 @@
       <h3>1. Midpoint Subway Recommendations</h3>
       <p>Meetro calculates the most convenient subway station as a meeting point based on the entered locations, considering multiple users' preferences.</p>
       <ul>
-        <li>Automatic midpoint calculation for groups.</li>
-        <li>Flexible adjustment for slightly off-midpoint stations with better attractions.</li>
-        <li>Real-time updates using modern mapping APIs.</li>
+        <li>Set the midpoint between two users to a wide range.</li>
+        <li>Score subway stations based on proximity and attractions.</li>
+        <li>Recommend the station with the highest score within the midpoint range.</li>
       </ul>
     </div>
     <div class="feature-item">
       <h3>2. Nearby Attractions</h3>
       <p>Explore popular attractions and recommended spots near the calculated midpoint to make meetups more enjoyable.</p>
       <ul>
-        <li>Attraction data constantly updated to reflect trends.</li>
-        <li>Categories include amusement parks, shopping malls, and more.</li>
-        <li>Recommendations prioritize landmarks preferred by most users.</li>
+        <li>Weighted scoring for famous attractions (e.g., amusement parks, malls).</li>
+        <li>Assign attractions to nearby stations for better suggestions.</li>
+        <li>Up-to-date data reflecting current trends and preferences.</li>
       </ul>
     </div>
     <div class="feature-item">
-      <h3>3. Efficient Planning</h3>
-      <p>Save time and effort with automated tools that simplify finding a convenient meeting spot for everyone.</p>
-      <ul>
-        <li>Customized algorithms to prioritize user convenience.</li>
-        <li>Integration with Google Maps for navigation support.</li>
-        <li>Streamlined decision-making for group meetups.</li>
-      </ul>
+      <h3>3. Differentiation</h3>
+      <p>Meetro stands out from similar platforms with unique features:</p>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Existing Solutions</th>
+            <th>Meetro Features</th>
+            <th>Benefits</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Finding a simple midpoint</td>
+            <td>Providing a midpoint considering landmarks</td>
+            <td>Score landmarks and recommend them</td>
+          </tr>
+          <tr>
+            <td>Outdated information</td>
+            <td>Providing up-to-date information</td>
+            <td>Follow the latest trends</td>
+          </tr>
+          <tr>
+            <td>Small data</td>
+            <td>A large amount of data</td>
+            <td>Give users more choices</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 

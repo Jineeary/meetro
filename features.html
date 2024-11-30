@@ -4,85 +4,133 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meetro - Feature Showcase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Poppins', 'Outfit', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
+      color: #e5e7eb;
+      background-color: #0f172a;
+      line-height: 1.6;
+      scroll-behavior: smooth;
     }
     nav {
-      background-color: #008cba;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #1e293b;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 15px 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
     }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
+    nav .logo {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #3b82f6;
+      margin-right: 20px;
+    }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+    }
+    nav ul li a {
       font-size: 1rem;
-      font-weight: bold;
+      text-decoration: none;
+      color: #e5e7eb;
       transition: color 0.3s;
     }
-    nav a:hover {
-      color: #ffdd57;
+    nav ul li a:hover {
+      color: #3b82f6;
     }
     header {
-      background: #004e92;
-      color: white;
+      height: 50vh;
+      background: linear-gradient(135deg, #1e40af, #0f172a);
+      color: #f1f5f9;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      padding: 50px 20px;
+      padding: 0 20px;
     }
     header h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
+      font-family: 'Outfit', sans-serif;
+      margin-bottom: 20px;
     }
     header p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+      max-width: 600px;
+      opacity: 0.9;
     }
     .container {
       max-width: 1200px;
-      margin: 20px auto;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin: 40px auto;
+      background: #1e293b;
+      border-radius: 12px;
       padding: 20px;
+      color: #f1f5f9;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
     h2 {
-      color: #008cba;
-      font-size: 1.8rem;
-      border-bottom: 2px solid #008cba;
-      padding-bottom: 8px;
+      font-size: 2rem;
+      color: #3b82f6;
+      margin-bottom: 20px;
+      font-family: 'Outfit', sans-serif;
+      text-align: center;
     }
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-    li {
+    .feature-item h3 {
+      font-size: 1.5rem;
+      color: #f1f5f9;
       margin-bottom: 10px;
     }
-    .feature-item {
+    .feature-item p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #9ca3af;
       margin-bottom: 20px;
+    }
+    footer {
+      background: #0f172a;
+      color: #9ca3af;
+      padding: 20px;
+      text-align: center;
+    }
+    footer p {
+      font-size: 0.9rem;
+      margin: 0;
     }
   </style>
 </head>
 <body>
-   <nav>
-    <a href="index.html">Home</a>
-    <a href="features.html">Features</a>
-    <a href="community.html">Community</a>
-    <a href="contact.html">Contact</a>
-    <!-- 예은: 1. 홈페이지에 문서와 GitHub 링크 위한 네비게이션 추가 -->
-    <a href="https://meetro.readthedocs.io/en/latest/" target="_blank">Documentation</a>
-    <a href="https://github.com/jineeary/meetro" target="_blank">GitHub</a>
+  <nav>
+    <div class="logo">Meetro</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://meetro.readthedocs.io/en/latest/" target="_blank">Docs</a></li>
+      <li><a href="https://github.com/jineeary/meetro" target="_blank">GitHub</a></li>
+    </ul>
   </nav>
-  
+
   <header>
     <h1>Feature Showcase</h1>
     <p>Highlighting Meetro's key functionalities and capabilities</p>
   </header>
-  
+
   <div class="container">
     <h2>Main Features</h2>
     <div class="feature-item">
@@ -98,5 +146,9 @@
       <p>Save time and effort with automated tools that simplify finding a convenient meeting spot for everyone.</p>
     </div>
   </div>
+
+  <footer>
+    <p>&copy; 2024 Meetro. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>

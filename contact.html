@@ -107,29 +107,22 @@
     .contact-item a:hover {
       text-decoration: underline;
     }
-    .kakao-chat {
-      display: inline-flex;
-      align-items: center;
-      background-color: #1f2937;
-      color: #3b82f6;
+    .button {
+      display: inline-block;
+      padding: 12px 30px;
+      font-size: 1rem;
+      background: linear-gradient(135deg, #3b82f6, #2563eb);
+      color: #ffffff;
       text-decoration: none;
       font-weight: 600;
-      padding: 10px 15px;
       border-radius: 25px;
+      box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
       margin-top: 15px;
-      transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
-    .kakao-chat:hover {
-      background-color: #3b82f6;
-      color: #ffffff;
+    .button:hover {
       transform: translateY(-3px);
-      box-shadow: 0 6px 15px rgba(59, 130, 246, 0.4);
-    }
-    .kakao-chat img {
-      width: 24px;
-      height: 24px;
-      margin-right: 10px;
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
     }
     footer {
       background: #0f172a;
@@ -170,10 +163,7 @@
       </div>
       <div class="contact-item">
         <strong>Open Chat:</strong> 
-        <a href="https://open.kakao.com/o/sIczM5Yg" class="kakao-chat">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/KakaoTalk_logo.png" alt="Kakao Logo">
-          Chat with Us
-        </a>
+        <a href="https://open.kakao.com/o/sIczM5Yg" class="button">Chat with Us</a>
       </div>
       <div class="contact-item">
         <strong>Social Media:</strong>

@@ -41,9 +41,6 @@
       margin: 0;
       padding: 0;
     }
-    nav ul li {
-      display: inline;
-    }
     nav ul li a {
       font-size: 1rem;
       text-decoration: none;
@@ -90,6 +87,11 @@
       font-family: 'Outfit', sans-serif;
       text-align: center;
     }
+    .feature-item {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #3b82f6;
+      padding-bottom: 20px;
+    }
     .feature-item h3 {
       font-size: 1.5rem;
       color: #f1f5f9;
@@ -99,7 +101,15 @@
       font-size: 1rem;
       line-height: 1.8;
       color: #9ca3af;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+    }
+    .feature-item ul {
+      margin-top: 10px;
+      padding-left: 20px;
+      color: #9ca3af;
+    }
+    .feature-item ul li {
+      margin-bottom: 8px;
     }
     footer {
       background: #0f172a;
@@ -128,22 +138,37 @@
 
   <header>
     <h1>Feature Showcase</h1>
-    <p>Highlighting Meetro's key functionalities and capabilities</p>
+    <p>Discover the innovative features of Meetro that make meeting friends effortless and enjoyable!</p>
   </header>
 
   <div class="container">
     <h2>Main Features</h2>
     <div class="feature-item">
       <h3>1. Midpoint Subway Recommendations</h3>
-      <p>Meetro calculates the most convenient subway station as a meeting point based on the entered locations.</p>
+      <p>Meetro calculates the most convenient subway station as a meeting point based on the entered locations, considering multiple users' preferences.</p>
+      <ul>
+        <li>Automatic midpoint calculation for groups.</li>
+        <li>Flexible adjustment for slightly off-midpoint stations with better attractions.</li>
+        <li>Real-time updates using modern mapping APIs.</li>
+      </ul>
     </div>
     <div class="feature-item">
       <h3>2. Nearby Attractions</h3>
       <p>Explore popular attractions and recommended spots near the calculated midpoint to make meetups more enjoyable.</p>
+      <ul>
+        <li>Attraction data constantly updated to reflect trends.</li>
+        <li>Categories include amusement parks, shopping malls, and more.</li>
+        <li>Recommendations prioritize landmarks preferred by most users.</li>
+      </ul>
     </div>
     <div class="feature-item">
       <h3>3. Efficient Planning</h3>
       <p>Save time and effort with automated tools that simplify finding a convenient meeting spot for everyone.</p>
+      <ul>
+        <li>Customized algorithms to prioritize user convenience.</li>
+        <li>Integration with Google Maps for navigation support.</li>
+        <li>Streamlined decision-making for group meetups.</li>
+      </ul>
     </div>
   </div>
 

@@ -22,9 +22,8 @@
       width: 100%;
       background: #1e293b;
       display: flex;
-      justify-content: space-between; /* 요소 간 간격 유지 */
-      align-items: center; /* 수직 정렬 */
-      padding: 15px 20px; /* 좌우 여백 최적화 */
+      align-items: center;
+      padding: 15px 20px; /* 좌우 여백 조정 */
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
       z-index: 1000;
     }
@@ -32,16 +31,25 @@
       font-size: 1.8rem;
       font-weight: 600;
       color: #3b82f6;
-      margin-left: 0; /* 추가 여백 제거 */
+      margin-right: auto; /* 로고는 왼쪽에 배치 */
     }
-    nav a {
-      margin-left: 15px; /* 링크 간 여백 조정 */
+    nav ul {
+      display: flex;
+      gap: 20px; /* 메뉴 간격 조정 */
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+    }
+    nav ul li a {
       font-size: 1rem;
       text-decoration: none;
       color: #e5e7eb;
       transition: color 0.3s;
     }
-    nav a:hover {
+    nav ul li a:hover {
       color: #3b82f6;
     }
     header {
@@ -64,37 +72,6 @@
       font-size: 1.3rem;
       max-width: 600px;
       opacity: 0.9;
-    }
-    #about, #features, #team, #docs {
-      background: #1e293b;
-      padding: 100px 20px;
-      text-align: center;
-    }
-    #about h2, #features h2, #team h2, #docs h2 {
-      font-size: 2.2rem;
-      color: #3b82f6;
-      margin-bottom: 15px;
-      font-family: 'Outfit', sans-serif;
-    }
-    #about p, #features p, #team p, #docs p {
-      font-size: 1rem;
-      line-height: 1.8;
-      color: #9ca3af;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li {
-      margin: 10px 0;
-      font-size: 1.1rem;
-      color: #e5e7eb;
-    }
-    ul li::before {
-      content: "⟡";
-      color: #3b82f6;
-      margin-right: 8px;
-      font-size: 1.2rem;
     }
     .btn {
       display: inline-block;
@@ -129,56 +106,21 @@
 <body>
   <nav>
     <div class="logo">Meetro</div>
-    <div>
-      <a href="#about">About</a>
-      <a href="#features">Features</a>
-      <a href="#team">Team</a>
-      <a href="#docs">Docs</a>
-    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://meetro.readthedocs.io/en/latest/" target="_blank">Docs</a></li>
+      <li><a href="https://github.com/jineeary/meetro" target="_blank">GitHub</a></li>
+    </ul>
   </nav>
 
   <header>
     <h1>Welcome to Meetro</h1>
     <p>Your ultimate solution for finding the best meeting spot with friends, based on subway locations.</p>
-    <a href="#about" class="btn">Learn More</a>
+    <a href="features.html" class="btn">Explore Features</a>
   </header>
-
-  <section id="about">
-    <h2>About Meetro</h2>
-    <p>Meetro is an innovative project designed to help friends easily find the perfect meeting place. By entering your locations, Meetro calculates the best midpoint subway station, ensuring a convenient and enjoyable spot for everyone. With Meetro, you can:</p>
-    <ul>
-      <li>Find midpoint subway stations with ease</li>
-      <li>Explore nearby attractions and popular meeting spots</li>
-      <li>Save time and effort when planning meetups with friends</li>
-    </ul>
-  </section>
-
-  <section id="features">
-    <h2>Key Features</h2>
-    <p>Meetro stands out by providing:</p>
-    <ul>
-      <li><strong>Midpoint Subway Recommendations:</strong> Find the best subway station to meet, based on location data.</li>
-      <li><strong>Nearby Attractions:</strong> Suggest places near the meeting point to make your meetup more fun.</li>
-      <li><strong>Efficient Planning:</strong> Avoid the hassle of deciding on a midpoint by using our automated tools.</li>
-    </ul>
-  </section>
-
-  <section id="team">
-    <h2>Meet the Team</h2>
-    <ul>
-      <li><strong>김연진 (Yeon-jin Kim):</strong> Data Collector</li>
-      <li><strong>염예은 (Ye-eun Yeom):</strong> Code Manager</li>
-      <li><strong>김여진 (Yeo-jin Kim):</strong> Website Creator</li>
-      <li><strong>윤수빈 (Soo-bin Yun):</strong> Project Leader</li>
-    </ul>
-  </section>
-
-  <section id="docs">
-    <h2>Documentation & GitHub</h2>
-    <p>Explore Meetro's full documentation and contribute to its development on GitHub:</p>
-    <a href="https://meetro.readthedocs.io/en/latest/" class="btn">Live Documentation</a>
-    <a href="https://github.com/jineeary/meetro" class="btn">GitHub Repository</a>
-  </section>
 
   <footer>
     <p>&copy; 2024 Meetro. All Rights Reserved.</p>

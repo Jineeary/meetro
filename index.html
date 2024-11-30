@@ -4,172 +4,180 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meetro - Find Your Perfect Meeting Spot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     /* Global styles */
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Poppins', 'Outfit', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f0f4f8;
-      color: #333;
+      color: #e5e7eb;
+      background-color: #0f172a;
+      line-height: 1.6;
+      scroll-behavior: smooth;
     }
     nav {
-      background-color: #008cba;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #1e293b;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+    nav .logo {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #3b82f6;
     }
     nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
+      margin-left: 20px;
       font-size: 1rem;
-      font-weight: bold;
+      text-decoration: none;
+      color: #e5e7eb;
       transition: color 0.3s;
     }
     nav a:hover {
-      color: #ffdd57;
+      color: #3b82f6;
     }
     header {
-      background: linear-gradient(to right, #004e92, #000428);
-      color: white;
-      padding: 60px 20px;
+      height: 100vh;
+      background: linear-gradient(135deg, #1e40af, #0f172a);
+      color: #f1f5f9;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
+      padding: 0 20px;
     }
     header h1 {
-      font-size: 3.5rem;
-      margin-bottom: 15px;
+      font-size: 4rem;
+      font-family: 'Outfit', sans-serif;
+      margin-bottom: 20px;
     }
     header p {
-      font-size: 1.5rem;
-      margin: 0;
+      font-size: 1.3rem;
+      max-width: 600px;
+      opacity: 0.9;
     }
-    .container {
-      max-width: 1200px;
-      margin: 40px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    #about, #features, #team, #docs {
+      background: #1e293b;
+      padding: 100px 20px;
+      text-align: center;
     }
-    .content-section {
-      margin-bottom: 40px;
-    }
-    .content-section h2 {
-      color: #008cba;
-      font-size: 2rem;
+    #about h2, #features h2, #team h2, #docs h2 {
+      font-size: 2.2rem;
+      color: #3b82f6;
       margin-bottom: 15px;
-      border-bottom: 3px solid #008cba;
-      padding-bottom: 8px;
+      font-family: 'Outfit', sans-serif;
     }
-    .content-section p {
-      font-size: 1.1rem;
-      margin-bottom: 20px;
+    #about p, #features p, #team p, #docs p {
+      font-size: 1rem;
       line-height: 1.8;
+      color: #9ca3af;
     }
-    .content-section ul {
-      list-style: disc;
-      padding-left: 20px;
+    ul {
+      list-style: none;
+      padding: 0;
     }
-    .content-section ul li {
-      margin-bottom: 12px;
+    ul li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+      color: #e5e7eb;
+    }
+    ul li::before {
+      content: "⟡";
+      color: #3b82f6;
+      margin-right: 8px;
+      font-size: 1.2rem;
     }
     .btn {
       display: inline-block;
-      background-color: #e67e22;
+      background-color: #3b82f6;
       color: white;
-      padding: 15px 30px;
+      padding: 12px 25px;
       font-size: 1rem;
-      border: none;
-      cursor: pointer;
+      border-radius: 25px;
       text-decoration: none;
-      border-radius: 6px;
-      transition: background-color 0.3s;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      margin: 10px;
+      transition: background-color 0.3s, transform 0.3s;
     }
     .btn:hover {
-      background-color: #f39c12;
+      background-color: #2563eb;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
     }
     footer {
-      background-color: #000428;
-      color: white;
-      padding: 25px 0;
+      background: #0f172a;
+      color: #9ca3af;
+      padding: 20px;
       text-align: center;
-      margin-top: 40px;
     }
     footer p {
+      font-size: 0.9rem;
       margin: 0;
-      font-size: 1rem;
     }
   </style>
 </head>
 <body>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="features.html">Features</a>
-    <a href="community.html">Community</a>
-    <a href="contact.html">Contact</a>
-    <!-- 예은: 1. 홈페이지에 문서와 GitHub 링크 위한 네비게이션 추가 -->
-    <a href="https://meetro.readthedocs.io/en/latest/" target="_blank">Documentation</a>
-    <a href="https://github.com/jineeary/meetro" target="_blank">GitHub</a>
+    <div class="logo">Meetro</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#team">Team</a>
+      <a href="#docs">Docs</a>
+    </div>
   </nav>
 
-  <!-- 예은: 2. Compelling Mission Statement (명확한 사명 선언문 추가) -->
-  <!-- 예은: 3. Inspiration from Apache Hadoop Design (Apache Hadoop 디자인에서 영감 받은 요소 추가) -->
-<header>
-  <h1 style="font-size: 3.5rem;">Welcome to Meetro!</h1>
-  <h1 style="font-size: 2.8rem; font-weight: bold;">Meetro: Redefining Meetups</h1>
-  <p>Your ultimate solution for finding the best meeting spot with friends, based on subway locations.</p>
-  <p style="font-size: 1.5rem; margin-top: 10px;">Meetro simplifies the art of meeting by providing accurate midpoint suggestions, nearby attractions, and time-efficient planning.</p>
-  <p style="font-size: 1.5rem; margin-top: 10px;">Inspired by precision and simplicity, Meetro helps you find the perfect spot to meet friends with ease.</p>
-</header>
-  
-  <div class="container">
-    <div class="content-section">
-      <h2>About Meetro</h2>
-      <p>Meetro is an innovative project designed to help friends easily find the perfect meeting place. By entering your locations, Meetro calculates the best midpoint subway station, ensuring a convenient and enjoyable spot for everyone. With Meetro, you can:</p>
-      <ul>
-        <li>Find midpoint subway stations with ease</li>
-        <li>Explore nearby attractions and popular meeting spots</li>
-        <li>Save time and effort when planning meetups with friends</li>
-      </ul>
-    </div>
+  <header>
+    <h1>Welcome to Meetro</h1>
+    <p>Your ultimate solution for finding the best meeting spot with friends, based on subway locations.</p>
+    <a href="#about" class="btn">Learn More</a>
+  </header>
 
-<!-- 예은: 4. Direct Links to Live Documentation and GitHub Repository (문서 및 깃허브 링크 추가) -->
-<div class="content-section">
-  <h2>Documentation & GitHub</h2>
-  <p>Explore Meetro's full documentation and contribute to its development on GitHub.</p>
-  <ul>
-    <a href="https://meetro.readthedocs.io/en/latest/" style="background: #ff6600; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-right: 10px;">Live Documentation</a>
-    <a href="https://github.com/jineeary/meetro" style="background: #00bfa5; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold;">GitHub Repository</a>
-  </ul>
-</div>
-    
-    <div class="content-section">
-      <h2>Key Features</h2>
-      <p>Meetro stands out by providing:</p>
-      <ul>
-        <li><strong>Midpoint Subway Recommendations:</strong> Find the best subway station to meet, based on location data.</li>
-        <li><strong>Nearby Attractions:</strong> Suggest places near the meeting point to make your meetup more fun.</li>
-        <li><strong>Efficient Planning:</strong> Avoid the hassle of deciding on a midpoint by using our automated tools.</li>
-      </ul>
-    </div>
+  <section id="about">
+    <h2>About Meetro</h2>
+    <p>Meetro is an innovative project designed to help friends easily find the perfect meeting place. By entering your locations, Meetro calculates the best midpoint subway station, ensuring a convenient and enjoyable spot for everyone. With Meetro, you can:</p>
+    <ul>
+      <li>Find midpoint subway stations with ease</li>
+      <li>Explore nearby attractions and popular meeting spots</li>
+      <li>Save time and effort when planning meetups with friends</li>
+    </ul>
+  </section>
 
-    <div class="content-section">
-      <h2>Team Members</h2>
-      <ul>
-        <li><strong>김연진 (Yeon-jin Kim):</strong> Data Collector</li>
-        <li><strong>염예은 (Ye-eun Yeom):</strong> Code Manager</li>
-        <li><strong>김여진 (Yeo-jin Kim):</strong> Website Creator</li>
-        <li><strong>윤수빈 (Soo-bin Yun):</strong> Project Leader</li>
-      </ul>
-    </div>
+  <section id="features">
+    <h2>Key Features</h2>
+    <p>Meetro stands out by providing:</p>
+    <ul>
+      <li><strong>Midpoint Subway Recommendations:</strong> Find the best subway station to meet, based on location data.</li>
+      <li><strong>Nearby Attractions:</strong> Suggest places near the meeting point to make your meetup more fun.</li>
+      <li><strong>Efficient Planning:</strong> Avoid the hassle of deciding on a midpoint by using our automated tools.</li>
+    </ul>
+  </section>
 
-    <div class="content-section">
-      <h2>Get Started</h2>
-      <p>Discover how Meetro can make meeting your friends easier and more fun by exploring our features.</p>
-      <p><a href="features.html" class="btn">Explore Features</a></p>
-    </div>
-  </div>
+  <section id="team">
+    <h2>Meet the Team</h2>
+    <ul>
+      <li><strong>김연진 (Yeon-jin Kim):</strong> Data Collector</li>
+      <li><strong>염예은 (Ye-eun Yeom):</strong> Code Manager</li>
+      <li><strong>김여진 (Yeo-jin Kim):</strong> Website Creator</li>
+      <li><strong>윤수빈 (Soo-bin Yun):</strong> Project Leader</li>
+    </ul>
+  </section>
+
+  <section id="docs">
+    <h2>Documentation & GitHub</h2>
+    <p>Explore Meetro's full documentation and contribute to its development on GitHub:</p>
+    <a href="https://meetro.readthedocs.io/en/latest/" class="btn">Live Documentation</a>
+    <a href="https://github.com/jineeary/meetro" class="btn">GitHub Repository</a>
+  </section>
 
   <footer>
     <p>&copy; 2024 Meetro. All Rights Reserved.</p>

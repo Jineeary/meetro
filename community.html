@@ -71,18 +71,9 @@
       margin-bottom: 20px;
     }
     .section {
-      margin-bottom: 60px; /* 각 섹션 간 간격 추가 */
-      position: relative;
+      margin-bottom: 60px;
       padding-bottom: 40px;
-    }
-    .section:not(:last-child)::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background: linear-gradient(to right, #2563eb, transparent);
+      border-bottom: 2px solid #2563eb; /* 선명한 구분선 */
     }
     .button {
       display: inline-block;
@@ -168,7 +159,7 @@
       <h2>Contact Us</h2>
       <p>If you have any other opinions, please refer to email or contact form</p>
       <a href="mailto:duswlsgodqhr@naver.com" class="button">Email Us</a>
-      <a href="https://github.com/Jineeary/meetro/blob/main/ContactForm" class="button">Contact Form</a>
+      <a href="https://github.com/jineeary/meetro/blob/main/ContactForm" class="button">Contact Form</a>
     </div>
   </div>
 

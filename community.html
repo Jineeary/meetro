@@ -1,160 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meetro - Contact Us</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8fafc;
-            color: #333;
-            line-height: 1.6;
-        }
-        #main {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .inner {
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 30px;
-        }
-        header.major h2 {
-            font-size: 1.8rem;
-            color: #0078d7;
-            border-bottom: 3px solid #0078d7;
-            display: inline-block;
-            margin-bottom: 10px;
-        }
-        .spotlights .inner {
-            padding: 30px;
-            background: #f9f9f9;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 15px;
-            background: #0078d7;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-        .button:hover {
-            background: #005bb5;
-        }
-        .button.next {
-            background: #00b050;
-        }
-        .button.next:hover {
-            background: #00843d;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul.actions li {
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meetro - Contact Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', 'Outfit', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #e5e7eb;
+      background-color: #0f172a;
+      line-height: 1.6;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #1e293b;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 15px 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+    nav .logo {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #3b82f6;
+      margin-right: 20px;
+    }
+    nav ul {
+      display: flex;
+      gap: 15px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      font-size: 1rem;
+      text-decoration: none;
+      color: #e5e7eb;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #3b82f6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 80px auto;
+      padding: 20px;
+      background: #1e293b;
+      border-radius: 12px;
+      color: #f1f5f9;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      font-size: 2rem;
+      color: #3b82f6;
+      margin-bottom: 20px;
+      font-family: 'Outfit', sans-serif;
+      text-align: center;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #9ca3af;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      font-size: 1rem;
+      background: #3b82f6;
+      color: #f1f5f9;
+      text-decoration: none;
+      border-radius: 25px;
+      text-align: center;
+      font-weight: 600;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    .button:hover {
+      background: #2563eb;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+    }
+    footer {
+      background: #0f172a;
+      color: #9ca3af;
+      padding: 20px;
+      text-align: center;
+    }
+    footer p {
+      font-size: 0.9rem;
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
-<div id="main">
+  <nav>
+    <div class="logo">Meetro</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://meetro.readthedocs.io/en/latest/" target="_blank">Docs</a></li>
+      <li><a href="https://github.com/jineeary/meetro" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
 
+  <div class="container">
     <!-- Intro Section -->
-    <section id="intro">
-        <div class="inner">
-            <header class="major">
-                <h2>Welcome to Our Community 🪄</h2>
-            </header>
-            <p>
-                Our community is a space where users and developers work together to complete projects.
-                Let's solve any idea, any problem, together!
-            </p>
-        </div>
-    </section>
+    <div class="section">
+      <h2>Welcome to Our Community 🪄</h2>
+      <p>Our community is a space where users and developers work together to complete projects. Let's solve any idea, any problem, together!</p>
+    </div>
 
     <!-- Discussion Forum Section -->
-    <section id="DiscussionForum" class="spotlights">
-        <div class="inner">
-            <header class="major">
-                <h2>Discussion Forum</h2>
-            </header>
-            <p>Want to give us an opinion? Meetro's GitHub Discussions is always open!</p>
-            <ul class="actions">
-                <li><a href="https://github.com/Jineeary/meetro/discussions" class="button">Join Discussion</a></li>
-            </ul>
-        </div>
-    </section>
+    <div class="section">
+      <h2>Discussion Forum</h2>
+      <p>Want to give us an opinion? Meetro's GitHub Discussions is always open!</p>
+      <a href="https://github.com/Jineeary/meetro/discussions" class="button">Join Discussion</a>
+    </div>
 
     <!-- Mailing List Section -->
-    <section id="mailing-list">
-        <div class="inner">
-            <header class="major">
-                <h2>Mailing List</h2>
-            </header>
-            <p>Subscribe to our mailing list to receive updates, announcements, and more!</p>
-            <ul class="actions">
-                <li><a href="https://meetro-mailing-list.com" class="button next">Subscribe</a></li>
-            </ul>
-        </div>
-    </section>
+    <div class="section">
+      <h2>Mailing List</h2>
+      <p>Subscribe to our mailing list to receive updates, announcements, and more!</p>
+      <a href="https://meetro-mailing-list.com" class="button">Subscribe</a>
+    </div>
 
     <!-- Communication Channels Section -->
-    <section id="communication-channels">
-        <div class="inner">
-            <header class="major">
-                <h2>Communication Channels</h2>
-            </header>
-            <section>
-                <div class="content">
-                    <div class="inner">
-                        <header>
-                            <h3>Chat Bot</h3>
-                        </header>
-                        <p>We have a chatbot where you can get answers in up to a day! Feel free to use it!</p>
-                        <ul class="actions">
-                            <li><a href="https://open.kakao.com/o/sIczM5Yg" class="button">Use ChatBot</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="content">
-                    <div class="inner">
-                        <header>
-                            <h3>Discord</h3>
-                        </header>
-                        <p>Communicate with various people through Discord!</p>
-                        <ul class="actions">
-                            <li><a href="https://discord.com/invite/your-invite-code" class="button">Join Discord</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </section>
+    <div class="section">
+      <h2>Communication Channels</h2>
+      <div class="section">
+        <h3>Chat Bot</h3>
+        <p>We have a chatbot where you can get answers in up to a day! Feel free to use it!</p>
+        <a href="https://open.kakao.com/o/sIczM5Yg" class="button">Use ChatBot</a>
+      </div>
+      <div class="section">
+        <h3>Discord</h3>
+        <p>Communicate with various people through Discord!</p>
+        <a href="https://discord.com/invite/your-invite-code" class="button">Join Discord</a>
+      </div>
+    </div>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <div class="inner">
-            <header class="major">
-                <h2>Contact Us</h2>
-            </header>
-            <p>If you have any other opinions, please refer to email or contact form</p>
-            <ul class="actions">
-                <li><a href="mailto:duswlsgodqhr@naver.com" class="button">Email Us</a></li>
-                <li><a href="https://github.com/Jineeary/meetro/blob/main/ContactForm" class="button next">Contact Form</a></li>
-            </ul>
-        </div>
-    </section>
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>If you have any other opinions, please refer to email or contact form</p>
+      <a href="mailto:duswlsgodqhr@naver.com" class="button">Email Us</a>
+      <a href="https://github.com/Jineeary/meetro/blob/main/ContactForm" class="button">Contact Form</a>
+    </div>
+  </div>
 
-</div>
+  <footer>
+    <p>&copy; 2024 Meetro. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
